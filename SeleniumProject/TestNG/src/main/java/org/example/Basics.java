@@ -32,7 +32,7 @@ public class Basics {
 
         System.out.println("Hello");
         System.out.println(urlname);
-        System.out.println("Testing GitHub");
+        System.out.println("Updates were added");
     }
     @BeforeMethod
     public void beforeEvery(){
