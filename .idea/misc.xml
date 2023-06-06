@@ -5,6 +5,8 @@
       <list>
         <option value="$PROJECT_DIR$/SeleniumIntro/pom.xml" />
         <option value="$PROJECT_DIR$/SeleniumProject/TestNG/pom.xml" />
+        <option value="$PROJECT_DIR$/SeleniumProject/JavaStream/pom.xml" />
+        <option value="$PROJECT_DIR$/SeleniumProject/SeleniumIntro/pom.xml" />
       </list>
     </option>
   </component>

@@ -6,17 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="JavaStream" />
-        <module name="Locators (1)" />
-        <module name="Locators" />
-        <module name="TestNG" />
+        <module name="Google" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="JavaStream" target="19" />
-      <module name="Locators" target="19" />
-      <module name="Locators (1)" target="19" />
-      <module name="TestNG" target="19" />
-    </bytecodeTargetLevel>
   </component>
 </project>
