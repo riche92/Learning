@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Learning/Arrays/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Learning/Learning" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Learning/SeleniumProject/Assignments/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Learning/SeleniumProject/JavaStream/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Learning/SeleniumProject/SeleniumIntro/src/main/java" isTestSource="false" />
+    </content>
+  </component>
+</module>
