@@ -1,0 +1,29 @@
+<suite name = "Loan Department" parallel = "tests" thread-count="2">
+    <listeners>
+        <listener class-name = "org.example.Listeners"/>
+    </listeners>
+    <parameter name = "URL" value = "rahulshettyacademy.com"/>
+    <test name = "Personal Loan">
+        <parameter name = "APIKey/username" value = "12345"/>
+        <classes>
+            <class name = "org.example.Basics"/>
+            <class name = "org.example.Main"/>
+            <class name = "org.example.HomeLoan">
+
+            </class>
+
+        </classes>
+    </test>
+    <test name = "Car Loan">
+        <parameter name = "URL" value = "carloan.com"/>
+    <classes>
+        <class name = "org.example.CarLoanLogin">
+        <methods>
+            <exclude name="Web.*"/>
+        </methods>
+        </class>
+    </classes>
+    </test>
+</suite>
+<!-- To add reports, go to top right of intellij and select dropdown. Click edit configurations and then go to the listeners tab. Add emailable-report and fail report. apply and then rerun xml file. This should
+add a test-output folder where you can open html inside via browser -->

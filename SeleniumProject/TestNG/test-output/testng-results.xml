@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="14" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-31T11:08:03 EDT" name="Loan Department" finished-at="2023-05-31T11:08:03 EDT" duration-ms="40">
+    <groups>
+    </groups>
+    <test started-at="2023-05-31T11:08:03 EDT" name="Car Loan" finished-at="2023-05-31T11:08:03 EDT" duration-ms="22">
+      <class name="org.example.Basics">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:org.example.Basics@2f177a4b]" started-at="2023-05-31T11:08:03 EDT" name="beforeSuite" finished-at="2023-05-31T11:08:03 EDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="lastSuiteExecution()[pri:0, instance:org.example.Basics@2f177a4b]" started-at="2023-05-31T11:08:03 EDT" name="lastSuiteExecution" finished-at="2023-05-31T11:08:03 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastSuiteExecution -->
+      </class> <!-- org.example.Basics -->
+      <class name="org.example.CarLoanLogin">
+        <test-method signature="LoginApiCarlogin()[pri:0, instance:org.example.CarLoanLogin@4b14c583]" started-at="2023-05-31T11:08:03 EDT" name="LoginApiCarlogin" finished-at="2023-05-31T11:08:03 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginApiCarlogin -->
+        <test-method signature="MobilePasswordCar(java.lang.String)[pri:0, instance:org.example.CarLoanLogin@4b14c583]" started-at="2023-05-31T11:08:03 EDT" name="MobilePasswordCar" finished-at="2023-05-31T11:08:03 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[carloan.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobilePasswordCar -->
+        <test-method signature="MobileLogincarLoan()[pri:0, instance:org.example.CarLoanLogin@4b14c583]" started-at="2023-05-31T11:08:03 EDT" name="MobileLogincarLoan" finished-at="2023-05-31T11:08:03 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLogincarLoan -->
+      </class> <!-- org.example.CarLoanLogin -->
+    </test> <!-- Car Loan -->
+    <test started-at="2023-05-31T11:08:03 EDT" name="Personal Loan" finished-at="2023-05-31T11:08:03 EDT" duration-ms="40">
+      <class name="org.example.Basics">
+        <test-method is-config="true" signature="WebsiteLogin()[pri:0, instance:org.example.Basics@2f177a4b]" started-at="2023-05-31T11:08:03 EDT" name="WebsiteLogin" finished-at="2023-05-31T11:08:03 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebsiteLogin -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:org.example.Basics@2f177a4b]" started-at="2023-05-31T11:08:03 EDT" name="beforeClass" finished-at="2023-05-31T11:08:03 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeEvery()[pri:0, instance:org.example.Basics@2f177a4b]" started-at="2023-05-31T11:08:03 EDT" name="beforeEvery" finished-at="2023-05-31T11:08:03 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEvery -->
+        <test-method signature="Demo(java.lang.String)[pri:0, instance:org.example.Basics@2f177a4b]" started-at="2023-05-31T11:08:03 EDT" name="Demo" finished-at="2023-05-31T11:08:03 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rahulshettyacademy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method is-config="true" signature="AfterEvery()[pri:0, instance:org.example.Basics@2f177a4b]" started-at="2023-05-31T11:08:03 EDT" name="AfterEvery" finished-at="2023-05-31T11:08:03 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterEvery -->
+        <test-method is-config="true" signature="beforeEvery()[pri:0, instance:org.example.Basics@2f177a4b]" started-at="2023-05-31T11:08:03 EDT" name="beforeEvery" finished-at="2023-05-31T11:08:03 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEvery -->
+        <test-method signature="mobileLogout(java.lang.String,java.lang.String)[pri:0, instance:org.example.Basics@2f177a4b]" started-at="2023-05-31T11:08:03 EDT" name="mobileLogout" data-provider="getData" finished-at="2023-05-31T11:08:03 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLogout -->
+        <test-method is-config="true" signature="AfterEvery()[pri:0, instance:org.example.Basics@2f177a4b]" started-at="2023-05-31T11:08:03 EDT" name="AfterEvery" finished-at="2023-05-31T11:08:03 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterEvery -->
+        <test-method is-config="true" signature="beforeEvery()[pri:0, instance:org.example.Basics@2f177a4b]" started-at="2023-05-31T11:08:03 EDT" name="beforeEvery" finished-at="2023-05-31T11:08:03 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEvery -->
+        <test-method signature="mobileLogout(java.lang.String,java.lang.String)[pri:0, instance:org.example.Basics@2f177a4b]" started-at="2023-05-31T11:08:03 EDT" name="mobileLogout" data-provider="getData" finished-at="2023-05-31T11:08:03 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLogout -->
+        <test-method is-config="true" signature="AfterEvery()[pri:0, instance:org.example.Basics@2f177a4b]" started-at="2023-05-31T11:08:03 EDT" name="AfterEvery" finished-at="2023-05-31T11:08:03 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterEvery -->
+        <test-method signature="mobileLogout(java.lang.String,java.lang.String)[pri:0, instance:org.example.Basics@2f177a4b]" started-at="2023-05-31T11:08:03 EDT" name="mobileLogout" data-provider="getData" finished-at="2023-05-31T11:08:03 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLogout -->
+        <test-method is-config="true" signature="beforeEvery()[pri:0, instance:org.example.Basics@2f177a4b]" started-at="2023-05-31T11:08:03 EDT" name="beforeEvery" finished-at="2023-05-31T11:08:03 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEvery -->
+        <test-method is-config="true" signature="AfterEvery()[pri:0, instance:org.example.Basics@2f177a4b]" started-at="2023-05-31T11:08:03 EDT" name="AfterEvery" finished-at="2023-05-31T11:08:03 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterEvery -->
+        <test-method signature="regularTest()[pri:0, instance:org.example.Basics@2f177a4b]" started-at="2023-05-31T11:08:03 EDT" name="regularTest" finished-at="2023-05-31T11:08:03 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regularTest -->
+        <test-method is-config="true" signature="beforeEvery()[pri:0, instance:org.example.Basics@2f177a4b]" started-at="2023-05-31T11:08:03 EDT" name="beforeEvery" finished-at="2023-05-31T11:08:03 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEvery -->
+        <test-method is-config="true" signature="AfterEvery()[pri:0, instance:org.example.Basics@2f177a4b]" started-at="2023-05-31T11:08:03 EDT" name="AfterEvery" finished-at="2023-05-31T11:08:03 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterEvery -->
+        <test-method is-config="true" signature="beforeEvery()[pri:0, instance:org.example.Basics@2f177a4b]" started-at="2023-05-31T11:08:03 EDT" name="beforeEvery" finished-at="2023-05-31T11:08:03 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEvery -->
+        <test-method signature="secondTest()[pri:0, instance:org.example.Basics@2f177a4b]" started-at="2023-05-31T11:08:03 EDT" name="secondTest" finished-at="2023-05-31T11:08:03 EDT" depends-on-methods="org.example.Basics.regularTest" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTest -->
+        <test-method is-config="true" signature="AfterEvery()[pri:0, instance:org.example.Basics@2f177a4b]" started-at="2023-05-31T11:08:03 EDT" name="AfterEvery" finished-at="2023-05-31T11:08:03 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterEvery -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:org.example.Basics@2f177a4b]" started-at="2023-05-31T11:08:03 EDT" name="afterClass" finished-at="2023-05-31T11:08:03 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="lastTestExecution()[pri:0, instance:org.example.Basics@2f177a4b]" started-at="2023-05-31T11:08:03 EDT" name="lastTestExecution" finished-at="2023-05-31T11:08:03 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastTestExecution -->
+      </class> <!-- org.example.Basics -->
+      <class name="org.example.HomeLoan">
+        <test-method signature="LoginApiHomelogin()[pri:0, instance:org.example.HomeLoan@6973bf95]" started-at="2023-05-31T11:08:03 EDT" name="LoginApiHomelogin" finished-at="2023-05-31T11:08:03 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginApiHomelogin -->
+        <test-method signature="MobileLoginHomeLoan()[pri:0, instance:org.example.HomeLoan@6973bf95]" started-at="2023-05-31T11:08:03 EDT" name="MobileLoginHomeLoan" finished-at="2023-05-31T11:08:03 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginHomeLoan -->
+        <test-method signature="WebloginHomeLoan(java.lang.String,java.lang.String)[pri:0, instance:org.example.HomeLoan@6973bf95]" started-at="2023-05-31T11:08:03 EDT" name="WebloginHomeLoan" finished-at="2023-05-31T11:08:03 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rahulshettyacademy.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebloginHomeLoan -->
+      </class> <!-- org.example.HomeLoan -->
+    </test> <!-- Personal Loan -->
+  </suite> <!-- Loan Department -->
+</testng-results>

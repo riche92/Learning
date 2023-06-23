@@ -1,0 +1,20 @@
+<suite name = "Loan Department">
+    <test name = "Regression">
+        <groups>
+            <run>
+                <include name ="Smoke" />
+            </run>
+        </groups>
+        <classes>
+            <class name = "org.example.Basics"/>
+            <class name = "org.example.Main"/>
+            <class name = "org.example.HomeLoan"/>
+            <class name = "org.example.CarLoanLogin">
+                    <methods>
+                        <include name = "Smoke"/>
+                    </methods>
+        </classes>
+
+    </test>
+
+</suite>

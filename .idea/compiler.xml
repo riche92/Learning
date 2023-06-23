@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+<<<<<<< HEAD
         <module name="Google (1)" />
       </profile>
     </annotationProcessing>
@@ -14,6 +15,19 @@
       <module name="Locators (1)" target="19" />
       <module name="Locators (2)" target="19" />
       <module name="SeleniumLearning" target="19" />
+=======
+        <module name="JavaStream" />
+        <module name="Locators (1)" />
+        <module name="Locators" />
+        <module name="TestNG" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="JavaStream" target="19" />
+      <module name="Locators" target="19" />
+      <module name="Locators (1)" target="19" />
+      <module name="TestNG" target="19" />
+>>>>>>> 073388404d04129dc5ef5f3f8b8e25f808dd6922
     </bytecodeTargetLevel>
   </component>
 </project>
